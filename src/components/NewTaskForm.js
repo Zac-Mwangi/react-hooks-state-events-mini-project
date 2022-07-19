@@ -1,11 +1,9 @@
 import React from "react";
 
 function NewTaskForm({category}) {
-  // console.log(category);
 
   const category_list = category.map((ct) => (
       <option key={ct} value={ct}>{ct}</option>
-      // console.log(ct)
   ));
 
   return (
